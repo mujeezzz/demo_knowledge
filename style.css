@@ -1,3 +1,21 @@
-p{
+p {
     color: aqua;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+button :hover::before {
+    color: rgb(214, 211, 30);
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: springgreen;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: crosshair;
 }
